@@ -166,6 +166,7 @@ body {
 @media only screen and (min-width: 376px) {
 
     body {
+        width: 100%;
         max-width: 100%;
     }
 
@@ -178,6 +179,7 @@ body {
 
     .community {
         font-size: 1rem;
+        padding: 2.5em;
         grid-area: 1 / 1 / span 1/ span 2;
         height: 100%;
         
@@ -187,12 +189,14 @@ body {
         grid-area: 2 / 1 / span 1 / span 1;
         height: 100%;
         font-size: 1rem;
+        padding: 2.5em;
     }
 
     .why-us {
         grid-area: 2 / 2 / span 1 / span 1;
         height: 100%;
         font-size: 0.875rem;
+        padding: 3em;
     }
 }
 
